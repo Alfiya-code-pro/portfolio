@@ -1,0 +1,139 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+margin:0;
+background:#faf7fb;
+color:#333;
+transition:0.3s;
+}
+
+/* dark mode */
+
+.dark{
+background:#1e1e2f;
+color:white;
+}
+
+/* hero section */
+
+.hero{
+text-align:center;
+padding:120px 20px;
+background:linear-gradient(135deg,#f6d8ec,#d9e0ff,#e6d8ff);
+background-size:400% 400%;
+animation:gradient 12s ease infinite;
+}
+
+@keyframes gradient{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.typing{
+font-size:20px;
+margin-bottom:20px;
+}
+
+.hero-btn{
+background:white;
+padding:12px 20px;
+border-radius:10px;
+text-decoration:none;
+color:#333;
+font-weight:600;
+}
+
+/* toggle button */
+
+#themeToggle{
+position:fixed;
+top:20px;
+right:20px;
+border:none;
+font-size:20px;
+background:#eee;
+padding:10px;
+border-radius:50%;
+cursor:pointer;
+}
+
+/* navigation */
+
+nav{
+text-align:center;
+padding:15px;
+background:#f2ecf8;
+}
+
+nav a{
+margin:0 15px;
+text-decoration:none;
+font-weight:600;
+color:#5c4b7d;
+}
+
+/* sections */
+
+section{
+max-width:900px;
+margin:auto;
+padding:60px 20px;
+}
+
+h2{
+color:#7b5fa8;
+}
+
+/* skills */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skills span{
+background:#efe7ff;
+padding:10px 16px;
+border-radius:20px;
+}
+
+/* projects */
+
+.projects{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.buttons{
+margin-top:15px;
+}
+
+.buttons a{
+background:#e7d8ff;
+padding:8px 14px;
+border-radius:8px;
+text-decoration:none;
+color:#333;
+}
+
+/* footer */
+
+footer{
+text-align:center;
+padding:25px;
+background:#efe6f8;
+}
